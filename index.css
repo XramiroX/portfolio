@@ -1,0 +1,7 @@
+body {
+    background-color: darkgray;
+}
+.card {
+    border-style: solid;
+    border-color: red;
+}
