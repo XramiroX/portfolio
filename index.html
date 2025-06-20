@@ -8,19 +8,21 @@
 </head>
 <body>
     <script src="index.js" type="module"></script>
+    <script src="index_translate.js" type="module"></script>
     <div class="card">
         <div class="card-title">
-            <p>Number to text</p>
+            <p id="lbl_numberToText">Number to text</p>
         </div>
         <div class="cart-body">
             <input type="number" name="ti_number" id="ti_ntt" value="10">
-            <button id="try_numbertotexten" onclick="NTT(1,1)">
-                try ENG
-            </button>
-            <button id="try_numbertotextsp" onclick="NTT(2,2)">
-                try MEX
-            </button>
+            <input type="button" id="try_numbertotexten" lang="0" value="try ENG"/>
+            <input type="button" id="try_numbertotextsp" lang="1" value="try MEX"/>
         </div>
+    </div>
+
+    <div class="card">
+        <input type="button" id="changeLanguageEng" lang="0" value="English">
+        <input type="button" id="changeLanguageSpa" lang="1" value="Español">
     </div>
 </body>
 </html>

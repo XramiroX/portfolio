@@ -1,0 +1,1 @@
+export const Number_to_text = ['Number to text', 'Numero a texto']
